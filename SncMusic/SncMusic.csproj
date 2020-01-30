@@ -70,6 +70,35 @@
   <ItemGroup>
     <Compile Include="Aluno.cs" />
     <Compile Include="Banco.cs" />
+    <Compile Include="Cadastro de Cursos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro de Cursos.Designer.cs">
+      <DependentUpon>Cadastro de Cursos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Curso.cs" />
+    <Compile Include="FrmCurso.cs" />
+    <Compile Include="FrmProfessor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProfessor.Designer.cs">
+      <DependentUpon>FrmProfessor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUsuario.cs" />
+    <Compile Include="FrmUsuário.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUsuário.Designer.cs">
+      <DependentUpon>FrmUsuário.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Matricula.cs" />
+    <Compile Include="Matrícula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Matrícula.Designer.cs">
+      <DependentUpon>Matrícula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Professor.cs" />
     <Compile Include="FrmAluno.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,11 +113,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cadastro de Cursos.resx">
+      <DependentUpon>Cadastro de Cursos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmAluno.resx">
       <DependentUpon>FrmAluno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProfessor.resx">
+      <DependentUpon>FrmProfessor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUsuário.resx">
+      <DependentUpon>FrmUsuário.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Matrícula.resx">
+      <DependentUpon>Matrícula.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
